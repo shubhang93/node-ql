@@ -1,8 +1,7 @@
 --name: getAllProducts
 
-
 select * from products
-
+where id=:id and name=:name
 
 
 --name: getAllBrands
